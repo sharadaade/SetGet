@@ -64,8 +64,8 @@ namespace SetGet
             a.AcBal = 50000;
             int b = a.FormattedBalance;
             Console.WriteLine("Name : {0}",a.Name);
-            Console.WriteLine("Balance : {0}",a.AcBal);
-            Console.WriteLine("Banance from FormattedBalance {0}",b);
+            Console.WriteLine("Balance : {0} $",a.AcBal);
+            //Console.WriteLine("Banance from FormattedBalance {0}",b);
         }
     }
 }
